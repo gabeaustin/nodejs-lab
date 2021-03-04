@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gabeaustin/nodejs-lab#readme",
   "dependencies": {
+    "request-promise": "^4.2.6",
     "request-promise-core": "^1.1.4"
   }
 }
