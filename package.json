@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gabeaustin/nodejs-lab/issues"
   },
-  "homepage": "https://github.com/gabeaustin/nodejs-lab#readme"
+  "homepage": "https://github.com/gabeaustin/nodejs-lab#readme",
+  "dependencies": {
+    "request-promise-core": "^1.1.4"
+  }
 }
