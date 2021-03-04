@@ -2,8 +2,6 @@ const path = require("path");
 const fs = require("fs");
 const requestPromise = require("request-promise");
 
-// This is how to read the file
-// store the data that was read
 let chirpArr = [
     {
         "id": 1,
@@ -31,5 +29,7 @@ let chirpArr = [
         "author": "Mr. Node"
     }
 ]
-fs.writeFileSync("./chirps.json", JSON.stringify(chirpArr), (err) => console.log(err)); // (file to read, character in coding(usually utf-8))
+
+fs.writeFileSync("./chirps.json", JSON.stringify(chirpArr), (err) => console.log(err)); 
+// (file to read, character in coding(usually utf-8))
 
